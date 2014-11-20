@@ -12,10 +12,7 @@ get '/portfolio' do
   erb :portfolio
 end
 
-get '/CV' do
-end
 
-get '/contact/' do
-  erb :contact
+not_found do
+  erb :not_found
 end
-
