@@ -12,6 +12,9 @@ get '/portfolio' do
   erb :portfolio
 end
 
+get '/mockup_new' do
+  erb :mockup_new
+end
 
 not_found do
   erb :not_found
