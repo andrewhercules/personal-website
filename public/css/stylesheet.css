@@ -5,21 +5,22 @@
 
 #content {
   width: 80%;
+  position: relative;
   background-color: #2d3e50;
   margin: 0 auto;
 }
 
 h1 {
-  font-family: 'Bree Serif', Georgia, Times, serif;
+  font-family: 'Rockwell', Georgia, Times, serif;
   font-size: 6vw;
   color: #f3f2f2;
   text-align: center;
-  padding-top: 5%;
+  margin: 0;
 }
 
 h2 {
-  font-family: 'Open Sans', Verdana, Tahoma, sans-serif;
-  font-size: 3vw;
+  font-family: 'Futura', Verdana, Tahoma, sans-serif;
+  font-size: 2vw;
   color: #f3f2f2;
   text-align: center;
 }
@@ -43,11 +44,6 @@ h2 {
   width: 30%;
   height: 100px;
   border: 5px solid red;
-}
-
-#title {
-  position: relative;
-  top: -20px;
 }
 
 footer#footer-bar {
