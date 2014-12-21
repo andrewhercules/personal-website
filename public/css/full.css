@@ -17,3 +17,14 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
+
+#container {
+  width: 100%;
+  background-color: navy;
+}
+
+#content {
+  width: 80%;
+  background-color: orange;
+  margin: 0 auto;
+}
