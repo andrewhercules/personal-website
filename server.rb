@@ -9,5 +9,5 @@ get '/' do
 end
 
 not_found do
-  "Hello world!"
+  erb :'page-not-found'
 end
