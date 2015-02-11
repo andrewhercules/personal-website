@@ -3,7 +3,7 @@ html, #container {
   background-color: #f3f2f2;
 }
 
-#content {
+section#content, footer#footer-bar {
   width: 80%;
   position: relative;
   background-color: #2d3e50;
@@ -12,10 +12,12 @@ html, #container {
   border-radius: 5px;
 }
 
+/*Fonts and Typography*/
+
 h1 {
   font-family: 'Bitter', serif;
   text-transform: uppercase;
-  font-size: 6vw;
+  font-size: 5vw;
   color: #f3f2f2;
   text-align: center;
   margin: 0;
@@ -24,24 +26,16 @@ h1 {
 
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2.4vw;
+  font-size: 2.87vw;
   color: #f3f2f2;
   text-align: center;
   margin: 0;
   padding-bottom: 3%;
 }
 
-h3 {
-  font-family: 'Futura', Verdana, Tahoma, sans-serif;
-  font-size: 2.4vw;
-  color: #f3f2f2;
-  text-align: center;
-  margin: 0;
-  padding-bottom: 3%;
-  padding-top: 2%;
-}
+/*Index page*/
 
-#top-row-icons, #bottom-row-icons {
+section#top-row-icons, section#bottom-row-icons {
   background-color: #2d3e50;
   width: 100%;
   display: -webkit-flex;
@@ -54,43 +48,36 @@ h3 {
   justify-content: center;
 }
 
-.icon-container {
+section.icon-container {
   margin: 2%;
-/*  background-color: orange;*/
   width: 20.5%;
-}
-
-footer#footer-bar {
-  width: 80%;
-  margin: 0 auto;
-  background-color: #2d3e50;
-  border: 5px solid #2d3e50;
-  border-radius: 5px;
 }
 
 address {
   font-style: normal;
 }
 
-p#contact-info, p.about-text {
-  font-family: 'Open Sans', Verdana, Tahoma, sans-serif;
-  font-size: 1vw;
+p#contact-info {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.36vw;
   color: #f3f2f2;
   text-align: center;
 }
 
 p#icon-credits {
-  font-size: 0.75vw;
-  font-family: 'Open Sans', Verdana, Tahoma, sans-serif;
+  font-size: 1vw;
+  font-family: 'Source Sans Pro', sans-serif;
   color: #f3f2f2;
   text-align: center;
 }
 
+/*About page*/
+
 p.about-text {
-  font-family: 'Open Sans', Verdana, Tahoma, sans-serif;
+  font-family: 'Source Sans Pro', Verdana, Tahoma, sans-serif;
   font-size: 1.5vw;
   color: #f3f2f2;
-  text-align: center;
+  text-align: justify;
 }
 
 
@@ -177,4 +164,12 @@ a.project-link {
 hr {
   margin-top: 2%;
   width: 92%;
+}
+
+p.portfolio-home-link {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1vw;
+  color: #f3f2f2;
+  text-align: right;
+  margin-right: 4%;
 }
