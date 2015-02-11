@@ -1,4 +1,6 @@
-html, #container {
+/*Global Fonts, Typography, and Section Styles*/
+
+section#container {
   width: 100%;
   background-color: #f3f2f2;
 }
@@ -11,8 +13,6 @@ section#content, footer#footer-bar {
   border: 5px solid #2d3e50;
   border-radius: 5px;
 }
-
-/*Fonts and Typography*/
 
 h1 {
   font-family: 'Bitter', serif;
@@ -33,6 +33,18 @@ h2 {
   padding-bottom: 3%;
 }
 
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.87vw;
+  color: #f3f2f2;
+  text-align: center;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: #f3f2f2;
+}
+
 /*Index page*/
 
 section#top-row-icons, section#bottom-row-icons {
@@ -51,6 +63,15 @@ section#top-row-icons, section#bottom-row-icons {
 section.icon-container {
   margin: 2%;
   width: 20.5%;
+}
+
+section.icon {
+  display: block;
+  border: 5px solid #f3f2f2;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 70%;
+  height: 70%;
 }
 
 address {
@@ -80,27 +101,12 @@ p.about-text {
   text-align: justify;
 }
 
-
-a, a:hover {
-  text-decoration: none;
-  color: #f3f2f2;
-}
-
-.icon {
-  display: block;
-  border: 5px solid #f3f2f2;
-  border-radius: 5px;
-  margin: 0 auto;
-  width: 70%;
-  height: 70%;
-}
-
 section#bio {
   width: 85%;
   margin: 0 auto;
 }
 
-#headshot {
+img#headshot {
   display: block;
   width: 20%;
   height: 20%;
@@ -108,11 +114,13 @@ section#bio {
 }
 
 p.about-text-home-link {
-  font-family: 'Open Sans', Verdana, Tahoma, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 1vw;
   color: #f3f2f2;
   text-align: right;
 }
+
+/*Portfolio page*/
 
 section.portfolio-item {
   width: 44%;
@@ -142,7 +150,7 @@ section.project-details {
   margin-bottom: 5%;
 }
 
-p.project-description, p.project-links {
+p.project-description {
   font-family: 'Source Sans Pro', sans-serif;
   color: #f3f2f2;
   text-align: justify;
@@ -159,11 +167,6 @@ button.project-link-button {
 
 a.project-link {
   color: #2d3e50;
-}
-
-hr {
-  margin-top: 2%;
-  width: 92%;
 }
 
 p.portfolio-home-link {
