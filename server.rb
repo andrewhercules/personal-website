@@ -17,5 +17,5 @@ get '/portfolio' do
 end
 
 not_found do
-  erb :'page-not-found'
+  erb :index
 end
