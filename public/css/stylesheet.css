@@ -1,28 +1,58 @@
-/*Global Fonts, Typography, and Section Styles*/
-
-section#container {
-  width: 100%;
-  background-color: #f3f2f2;
+* {
+  font-family: 'Source Sans Pro', Verdana, Tahoma, sans-serif;
 }
 
-section#content, footer#footer-bar {
+section.content{
   width: 80%;
-  position: relative;
-  background-color: #2d3e50;
-  margin: 2.5% auto;
-  border: 5px solid #2d3e50;
-  border-radius: 5px;
+  margin: 5% auto 0 auto;
 }
 
 h1 {
-  font-family: 'Bitter', serif;
-  text-transform: uppercase;
   font-size: 5vw;
-  color: #f3f2f2;
   text-align: center;
-  margin: 0;
   padding-top: 1%;
 }
+
+/*About Me page*/
+
+section#biography {
+  width: 85%;
+  margin: 0 auto;
+}
+
+p.about-me-text {
+  font-size: 1.5vw;
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*OLD STYLES*/
 
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -94,31 +124,7 @@ p#icon-credits {
 
 /*About page*/
 
-p.about-text {
-  font-family: 'Source Sans Pro', Verdana, Tahoma, sans-serif;
-  font-size: 1.5vw;
-  color: #f3f2f2;
-  text-align: justify;
-}
 
-section#bio {
-  width: 85%;
-  margin: 0 auto;
-}
-
-img#headshot {
-  display: block;
-  width: 20%;
-  height: 20%;
-  margin: 0 auto;
-}
-
-p.about-text-home-link {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1vw;
-  color: #f3f2f2;
-  text-align: right;
-}
 
 /*Portfolio page*/
 
