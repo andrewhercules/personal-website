@@ -1,5 +1,5 @@
 * {
-  font-family: 'Source Sans Pro', Verdana, Tahoma, sans-serif;
+  font-family: 'Montserrat', Verdana, Tahoma, sans-serif;
 }
 
 .content{
@@ -32,17 +32,10 @@ p.about-me-text {
 
 /*Portfolio page*/
 
-img.portfolio-item-preview, img.project-image-preview {
+img.project-image-preview {
+  border: 2px solid black;
+  border-radius: 1px;
   width: 100%;
-}
-
-section.float-right {
-  float: right;
-  margin-right: 4%;
-}
-
-section.float-left {
-  margin-left: 4%;
 }
 
 section.project-details {
@@ -53,91 +46,3 @@ section.project-details {
 p.project-description {
   text-align: justify;
 }
-
-a.project-link {
-  color: #333333;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /*OLD STYLES*/
-
-
-
-a, a:hover {
-  text-decoration: none;
-  color: #f3f2f2;
-}
-
-/*Index page*/
-
-section#top-row-icons, section#bottom-row-icons {
-  background-color: #2d3e50;
-  width: 100%;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: row
-  flex-direction: row;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-}
-
-section.icon-container {
-  margin: 2%;
-  width: 20.5%;
-}
-
-section.icon {
-  display: block;
-  border: 5px solid #f3f2f2;
-  border-radius: 5px;
-  margin: 0 auto;
-  width: 70%;
-  height: 70%;
-}
-
-address {
-  font-style: normal;
-}
-
-p#contact-info {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.36vw;
-  color: #f3f2f2;
-  text-align: center;
-}
-
-p#icon-credits {
-  font-size: 1vw;
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #f3f2f2;
-  text-align: center;
-}
-
-/*About page*/
