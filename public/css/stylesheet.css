@@ -27,6 +27,16 @@ h3 {
   text-align: center;
 }
 
+/*Index page*/
+
+#full-background-image {
+    background: url('/img/index-background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 /*About Me page*/
 
 p.about-me-text {
