@@ -1,40 +1,77 @@
-<main id='container'>
+<main class='container'>
 
-  <section id='content'>
+  <section class='content'>
 
-    <header>
-      <h1>Portfolio</h1>
-    </header>
-
-    <!-- Row #1 -->
-
-    <section class='portfolio-row'>
-
-      <section class='portfolio-item float-left'>
-        <h2 class='project-title'>Pico Pico</h2>
-        <section class='project-image'>
-          <a href="/img/pico-pico.png" data-lightbox="portfolio-images" data-title="Pico Pico, a Twitter-like clone"><img src='/img/pico-pico.png' alt='Screenshot of Pico Pico app' class='project-image-preview'/></a>
+    <section class="row">
+        <section class="col-lg-12">
+            <h1 class="page-header">My Portfolio <small>Web Development</small></h1>
         </section>
+    </section>
+
+    <section class="row portfolio-row">
+
+      <section class="col-md-6 portfolio-item">
+        <section class='project-image'>
+          <a href="/img/pico-pico.png" data-lightbox="portfolio-images" data-title="Pico Pico, a Twitter-like clone">
+            <img src='/img/pico-pico.png' alt='Screenshot of Pico Pico app' class='project-image-preview'/>
+          </a>
+        </section>
+        <h3 class='project-title'>Pico Pico</h3>
         <section class='project-details'>
           <p class='project-description'>Pico Pico is a basic Twitter-like app created with PostgreSQL, Ruby, Sinatra, HTML, CSS, and jQuery.</p>
-          <button class='project-link-button'><a href='https://pico-pico.herokuapp.com/' target='_blank' class='project-link'>Live version on Heroku</a></button>
-          <button class='project-link-button'><a href='https://github.com/andrewhercules/pico-pico' target='_blank' class='project-link'>Source code on GitHub</a></button>
+          <a href='https://pico-pico.herokuapp.com/' target='_blank' class='project-link'><button class='btn btn-default'>Live version on Heroku</button></a>
+          <a href='https://github.com/andrewhercules/pico-pico' target='_blank' class='project-link'><button class='btn btn-default'>Source code</button></a>
         </section>
       </section>
 
-      <section class='portfolio-item float-right'>
-        <h2 class='project-title'>Rewardr</h2>
+      <section class="col-md-6 portfolio-item">
         <section class='project-image'>
-          <a href="/img/rewardr.png" data-lightbox="portfolio-images" data-title="Rewardr, a Ruby on Rails corporate rewards app"><img src='/img/rewardr.png' alt='Screenshot of Rewardr app' class='project-image-preview'/></a>
+          <a href="/img/rewardr.png" data-lightbox="portfolio-images" data-title="Rewardr, a Ruby on Rails corporate rewards app">
+            <img src='/img/rewardr.png' alt='Screenshot of Rewardr app' class='project-image-preview'/>
+          </a>
         </section>
-        <section class='project-details'>
-          <p class='project-description'>Rewardr is a corporate rewards app built using Ruby on Rails, various gems, and HTML/CSS/jQuery on the front-end.</p>
-          <button class='project-link-button'><a href='https://fast-meadow-6272.herokuapp.com/' target='_blank' class='project-link'>Live version on Heroku</a></button>
-          <button class='project-link-button'><a href='https://github.com/HatStephens/FATS_Rewardr' target='_blank' class='project-link'>Source code on GitHub</a></button>
-        </section>
+          <h3 class='project-title'>Rewardr</h3>
+          <section class='project-details'>
+            <p class='project-description'>Rewardr is a corporate rewards app built using Ruby on Rails, various gems, and HTML/CSS/jQuery on the front-end.</p>
+            <a href='https://fast-meadow-6272.herokuapp.com/' target='_blank' class='project-link'><button class='btn btn-default'>Live version on Heroku</button></a>
+            <a href='https://github.com/HatStephens/FATS_Rewardr' target='_blank' class='project-link'><button class='btn btn-default'>Source code</button></a>
+          </section>
       </section>
 
     </section>
+
+
+    <!-- Projects Row -->
+    <div class="row">
+        <div class="col-md-6 portfolio-item">
+            <a href="#">
+                <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+            </a>
+            <h3>
+                <a href="#">Project Three</a>
+            </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+        </div>
+        <div class="col-md-6 portfolio-item">
+            <a href="#">
+                <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+            </a>
+            <h3>
+                <a href="#">Project Four</a>
+            </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+        </div>
+    </div>
+    <!-- /.row -->
+
+  </section>
+
+</main>
+
+
+    <!-- OLD CODE -->
+
+
 
     <!-- Row #2 -->
 
@@ -47,7 +84,7 @@
         </section>
         <section class='project-details'>
           <p class='project-description'>Badgr is a mobile app built with JavaScript, HTML, and CSS that allows users to send badges to their friends.</p>
-          <button class='project-link-button'><a href='https://github.com/Scully87/FATS_badgr' target='_blank' class='project-link'>Source code on GitHub</a></button>
+          <button class='btn btn-default'><a href='https://github.com/Scully87/FATS_badgr' target='_blank' class='project-link'>Source code on GitHub</a></button>
         </section>
       </section>
 
@@ -58,16 +95,14 @@
         </section>
         <section class='project-details'>
           <p class='project-description'>Rock, Paper, Scissors is the classic game built with Ruby, Sinatra, HTML, CSS, and jQuery.</p>
-          <button class='project-link-button'><a href='https://ah-rps.herokuapp.com/' target='_blank' class='project-link'>Live version on Heroku</a></button>
-          <button class='project-link-button'><a href='https://github.com/andrewhercules/rock-paper-scissors' target='_blank' class='project-link'>Source code on GitHub</a></button>
+          <button class='btn btn-default'><a href='https://ah-rps.herokuapp.com/' target='_blank' class='project-link'>Live version on Heroku</a></button>
+          <button class='btn btn-default'><a href='https://github.com/andrewhercules/rock-paper-scissors' target='_blank' class='project-link'>Source code on GitHub</a></button>
         </section>
       </section>
 
     </section>
 
     <!-- End of rows -->
-
-  <p class='portfolio-home-link'>Homepage: <a href='/'><span class='fa fa-home'></span></a>
 
   </section>
 

@@ -2,29 +2,61 @@
   font-family: 'Source Sans Pro', Verdana, Tahoma, sans-serif;
 }
 
-section.content{
-  width: 80%;
+.content{
   margin: 5% auto 0 auto;
 }
 
 h1 {
-  font-size: 5vw;
+  font-size: 4vw;
+  margin: 0;
+}
+
+h2 {
+  font-size: 3vw;
   text-align: center;
-  padding-top: 1%;
+  margin: 0;
+  padding-bottom: 3%;
+}
+
+h3 {
+  font-size: 2vw;
+  text-align: center;
 }
 
 /*About Me page*/
-
-section#biography {
-  width: 85%;
-  margin: 0 auto;
-}
 
 p.about-me-text {
   font-size: 1.5vw;
   text-align: justify;
 }
 
+/*Portfolio page*/
+
+img.portfolio-item-preview, img.project-image-preview {
+  width: 100%;
+}
+
+section.float-right {
+  float: right;
+  margin-right: 4%;
+}
+
+section.float-left {
+  margin-left: 4%;
+}
+
+section.project-details {
+  padding: 2%;
+  margin-bottom: 5%;
+}
+
+p.project-description {
+  text-align: justify;
+}
+
+a.project-link {
+  color: #333333;
+}
 
 
 
@@ -54,21 +86,7 @@ p.about-me-text {
 
  /*OLD STYLES*/
 
-h2 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2.87vw;
-  color: #f3f2f2;
-  text-align: center;
-  margin: 0;
-  padding-bottom: 3%;
-}
 
-h3 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.87vw;
-  color: #f3f2f2;
-  text-align: center;
-}
 
 a, a:hover {
   text-decoration: none;
@@ -123,62 +141,3 @@ p#icon-credits {
 }
 
 /*About page*/
-
-
-
-/*Portfolio page*/
-
-section.portfolio-item {
-  width: 44%;
-  display: inline-block;
-}
-
-img.portfolio-item-preview, img.project-image-preview {
-  width: 100%;
-}
-
-section.portfolio-row {
-  margin-top: 3%;
-  clear: both;
-}
-
-section.float-right {
-  float: right;
-  margin-right: 4%;
-}
-
-section.float-left {
-  margin-left: 4%;
-}
-
-section.project-details {
-  padding: 0% 2%;
-  margin-bottom: 5%;
-}
-
-p.project-description {
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #f3f2f2;
-  text-align: justify;
-}
-
-button.project-link-button {
-  background-color: #f3f2f2;
-  font-family: 'Source Sans Pro', sans-serif;
-  border: none;
-  border-radius: 5px;
-  margin-right: 2%;
-  padding: 1%;
-}
-
-a.project-link {
-  color: #2d3e50;
-}
-
-p.portfolio-home-link {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1vw;
-  color: #f3f2f2;
-  text-align: right;
-  margin-right: 4%;
-}
